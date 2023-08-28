@@ -1,0 +1,33 @@
+.infoBlank{
+    display: inline;
+    border: none;
+    border-radius: 10px;
+    height: 46px;
+    width: 220px;
+    border-radius: 5px;
+}
+#lb_ID, #lb_PWD{
+    font-size: 28px;
+}
+#bt_login{
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+@media(min-width: 320px) and (max-width: 480px){ /* mobile */
+    .navbarRight{ /* mobile 버전일 때 상단 팀cc title만 보이게 */
+        display: none;
+    }
+    #logoTitle{
+        font-size: 25px !important;
+    }
+    .dashboardText{
+        font-size: 20px !important;
+    }
+}
+
+#logoTitle{
+    font-size: 30px;
+    font-weight: bold;
+}

@@ -1,0 +1,6 @@
+## NESOY Ignore File ##
+
+
+nohup.out
+
+lib/db.js
